@@ -1,0 +1,65 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+backend.pid
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Backend (Java / Maven / Eclipse / Spring Boot)
+backend/target/
+backend/bin/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.factorypath
+backend/*.log
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Frontend (Node / React)
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.pnp.js
+frontend/.pnp.cjs
+frontend/coverage/
+frontend/.next/
+frontend/out/
+frontend/.nuxt/
+frontend/.vuepress/dist/
+frontend/.serverless/
+frontend/.eslintcache
+frontend/.stylelintcache
+frontend/.env
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/.env.local
