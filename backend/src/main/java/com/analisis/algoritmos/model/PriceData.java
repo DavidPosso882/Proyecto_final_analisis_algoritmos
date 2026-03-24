@@ -29,17 +29,14 @@ public class PriceData {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @com.fasterxml.jackson.annotation.JsonIgnore
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "asset_id", nullable = false)
     private Asset asset;
 
+    @com.fasterxml.jackson.annotation.JsonIgnore
     public Asset getAsset() {
         return asset;
-    }
-
-    @com.fasterxml.jackson.annotation.JsonProperty("ticker")
-    public String getAssetTicker() {
-        return asset != null ? asset.getTicker() : null;
     }
 
     @Column(nullable = false)

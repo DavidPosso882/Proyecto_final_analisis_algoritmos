@@ -93,7 +93,7 @@ spring.h2.console.enabled=true
 ### Backend
 ```bash
 cd backend
-./mvnw spring-boot:run         # Ejecutar servidor (puerto 8080)
+./mvn spring-boot:run         # Ejecutar servidor (puerto 8080)
 ./mvnw clean compile           # Solo compilar
 ```
 
